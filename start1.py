@@ -4,6 +4,8 @@ efficiency = 18.0
 distance = efficiency * total_fuel
 destination = 200
 people = 3
+price = 162.0
+
 def Fuel(fuel, addition):
   fuel = fuel + addition
   return fuel
