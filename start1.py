@@ -3,10 +3,17 @@ addition = 5.0
 efficiency = 18.0
 distance = efficiency * total_fuel
 destination = 200
+people = 3
 def Fuel(fuel, addition):
   fuel += addition
   return fuel
-  
+
+def Real_Efficiency(efficiency, people):
+  if people <= 2:
+    return efficiency
+  elif efficiency = efficiency * (1 - 0.05*people)
+    return efficiency
+
 def alert(destination, distance):
   if destination > distance:
     print("you need to add fuel!")
