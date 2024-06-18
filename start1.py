@@ -14,7 +14,7 @@ def Real_Efficiency(efficiency, people):
   else efficiency = efficiency * (1 - 0.05*people)
     return efficiency
 
-def alert(destination, distance):
+def Alert(destination, distance):
   if destination > distance:
     print("you need to add fuel!")
   else:
