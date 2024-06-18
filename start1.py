@@ -5,8 +5,7 @@ distance = efficiency * total_fuel
 destination = 200
 def Fuel(fuel, addition):
   fuel += addition
-  return fuel 
-def mobile(fuel, efficiency, distance):
+  return fuel
   
 def alert(destination, distance):
   if destination > distance:
