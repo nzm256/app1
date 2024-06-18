@@ -11,7 +11,7 @@ def Fuel(fuel, addition):
 def Real_Efficiency(efficiency, people):
   if people <= 2:
     return efficiency
-  elif efficiency = efficiency * (1 - 0.05*people)
+  else efficiency = efficiency * (1 - 0.05*people)
     return efficiency
 
 def alert(destination, distance):
