@@ -5,7 +5,7 @@ distance = efficiency * total_fuel
 destination = 200
 people = 3
 def Fuel(fuel, addition):
-  fuel += addition
+  fuel = fuel + addition
   return fuel
 
 def Real_Efficiency(efficiency, people):
